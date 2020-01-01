@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8")>
+		<meta name="description" content="test">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="Serge Kenne">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+		<!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebusneuebold" type="text/css"/>  -->
+		<title>test controle</title>
+		
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/rangeslider.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="page-wrapper">
+			<div class="header" id="header">
+				<div class="header__top clearfix">
+					<div class="container">
+						<a href="#" class="header__logo-link"><img src="images/logo1.png" alt="logo" class="header__logo-picture"></a>
+						<ul class="header__top-list">
+							<li class="header__top-item"><i class="header__top-icon fas fa-map-marker-alt"></i>г. Москва, ул. Рябиновая, д. 53</li>
+							<li class="header__top-item header__top-item--light"><i class="header__top-icon fas fa-sync-alt"></i>Круглосуточно</li>
+						</ul>
+						<ul class="header__top-list">
+							<li class="header__top-item"><i class="header__top-icon fa fa-phone" aria-hidden="true"></i><a href="tel:+74951205529" class="header__top-link">+7 (495) 120-55-29</a></li>
+							<li class="header__top-item"><i class="header__top-icon fa fa-envelope" aria-hidden="true"></i><a href="" class="header__top-link header__top-link--light">info@makulatura.online</a></li>
+						</ul>
+						<div class="header__top-btn"><a href="#" class="header__btn">заказать звонки</a></div>
+					</div>
+				</div>
+				<div class="nav-menu header__nav-menu" id="mainnav">
+					<div class="container">
+						<div class="menu-icon">
+							<div class="menu-icon__item"></div>
+							<div class="menu-icon__item"></div>
+							<div class="menu-icon__item"></div>
+						</div>
+						<ul class="nav-menu__list clearfix">
+							<li class="nav-menu__item"><a href="#header" class="nav-menu__link">главная</a></li>
+							<li class="nav-menu__item"><a href="#products" class="nav-menu__link">услуги<i class="fas fa-sort-down nav-menu__icon"></i></a>
+								<!-- <ul class="nav-menu__sub-list">
+									<li class="nav-menu__sub-item"><a href="#" class="nav-menu__sub-link">услуги-1</a></li>
+									<li class="nav-menu__sub-item"><a href="#" class="nav-menu__sub-link">услуги-2</a></li>
+									<li class="nav-menu__sub-item"><a href="#" class="nav-menu__sub-link">услуги-3</a></li>
+									<li class="nav-menu__sub-item"><a href="#" class="nav-menu__sub-link">услуги-4</a></li>
+								</ul> -->
+							</li>
+							<li class="nav-menu__item"><a href="#price" class="nav-menu__link">цены</a></li>
+							<li class="nav-menu__item"><a href="#company" class="nav-menu__link">о компании<i class="fas fa-sort-down nav-menu__icon"></i></a>
+								<!-- <ul class="nav-menu__sub-list">
+									<li class="nav-menu__sub-item"><a href="#" class="nav-menu__sub-link">описание-1</a></li>
+									<li class="nav-menu__sub-item"><a href="#" class="nav-menu__sub-link">описание-2</a></li>
+									<li class="nav-menu__sub-item"><a href="#" class="nav-menu__sub-link">описание-3</a></li>
+									<li class="nav-menu__sub-item"><a href="#" class="nav-menu__sub-link">описание-4</a></li>
+								</ul> -->
+							</li>
+							<li class="nav-menu__item"><a href="#contact" class="nav-menu__link">контакты</a></li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+			<div class="showcase">
+				<div class="container clearfix">
+					<div class="leftContent container__leftContent">
+						<h1 class="leftContent__title">Прием вторсырья </h1>
+						<p class="leftContent__subtitle">Принимаем бумажные отходы всех видов, полиэтилен (стрейч-пленка,ПВД) и твердые пластиковые отходы 
+						ПНД</p>
+						<ul class="leftContent__list">
+							<li class="leftContent__items"><a href="#" class="leftContent__link"><img class="leftContent__icon" src="images/24-hours.svg" alt="house"> Пункт приема работает 24/7</a></li>
+							<li class="leftContent__items"><a href="#" class="leftContent__link"><img class="leftContent__icon" src="images/location.svg" alt="location"> Вывоз из любого района Москвы и МО </a></li>
+							<li class="leftContent__items"><a href="#" class="leftContent__link"><img class="leftContent__icon" src="images/forklift.svg" alt="car"> Бесплатная погрузка и разгрузка</a></li>
+							<li class="leftContent__items"><a href="#" class="leftContent__link"><img class="leftContent__icon" src="images/wallet.svg" alt="wallet"> Оплата удобным способом в день сдачи </a></li>
+						</ul>
+						<div class="formContent__wrap-btn formContent__wrap-btn--price">
+							<input class="formContent__btn formContent__btn--price" type="submit" value="Рассчитать стоимость">
+						</div>
+					</div>
+					<div class="container__formContent">
+						<form action="#" class="formContent">
+							<h3 class="formContent__header">мы заплатим вам</h3>
+							<p class="formContent__paragraphe">заявка на расчет</p>
+							<div class="formContent__line clearfix">
+								<div class="formContent__slider">
+									<p class="formContent__outText">Вес, кг<output class="formContent__output"></output></p>
+									<input
+									    type="range"
+									    min="0"                 
+									    max="1500"                          
+									    value="300"                 
+									    data-orientation="horizontal" 
+									/>
+								</div>
+								<div class="formContent__picture"> 
+									<p class="formContent__text-picture">
+										Oценить по фотки <span class="formContent__icon-picture"><i class='fas fa-plus'></i>
+											<input class="formContent__file" type="file" name="file"/></span> 
+									</p>
+								</div>
+							</div>
+							<div class="formContent__line clearfix" >
+								<div class="formContent__wrap-select">
+									<input type="text" value="option-1" id="outerResult" style="display: none;">
+									<ul class="selectList" id="selectList">
+										<li class="selectList__item" id="result">Вид вторсырья</li>
+										<ul class="selectList__subList" id="subList">
+											<li class="selectList__subItem">макулатура</li>
+											<li class="selectList__subItem">картон</li>
+											<li class="selectList__subItem">полиэтилен</li>
+											<li class="selectList__subItem">отходы ПВД</li>
+										</ul>
+									</ul>
+								</div>
+								<span class="formContent__wrap-checkbox">
+									<input class="formContent__checkinput" id="box1" type="checkbox" name="checkbox" value="Привезут сам" checked />
+									<label class="formContent__checkbox formContent__checkbox--box1" for="box1">Привезут сам</label><br>
+									<input class="formContent__checkinput" id="box2" type="checkbox" name="checkbox" value="Нужен вызов" />
+									<label class="formContent__checkbox formContent__checkbox--box2" for="box2">Нужен вызов</label>
+								</span>
+							</div>
+							<div class="formContent__line clearfix">
+								<input class="formContent__input" type="text" placeholder="Ваш имя">
+								<input class="formContent__input formContent__input--right" type="text" placeholder="Ваш телефон*">
+							</div>
+							<div class="formContent__wrap-btn"><input class="formContent__btn" type="submit" value="отправить"></div> 
+							<p class="formContent__footer">Отправляя сообщение вы соглашаетесь </p>
+							<p class="formContent__footer">на <span class="formContent__span">обработку персональных данных</span> </p>
+						</form>
+						
+					</div>
+				</div>
+			</div>
+			<div class="description">
+				<div class="container">
+					<p class="description__text">Наша компания ведет прием вторсырья у предпринимателей, организаций и частных лиц. При сдаче макулатуры и иных видов вторсырья наши клиенты получают деньги, до 9500 за тонну. Чем выше сорт сдаваемых бумажных или пластиковых отходов, тем выше их стоимость. Кроме того, важное значение имеет чистота сдаваемого вторсырья, оно должно быть очищено от органических веществ, металлических элементов, макулатура должна быть просушена, так как оплата производится за килограммы.</p>
+					<p class="description__sub-text" >Прием осуществляется на площадке компании (круглосуточно) или на территории заказчика (с 9:00 до 19:00).<br>Возможен выезд в день заявки.</p>
+				</div>
+			</div>
+			<div class="products" id="products">
+				<div class="container">
+					<h2 class="products__title" >виды вторсырья</h2>
+					<div class="products__materials clearfix" >
+						<div class="products__materials-item">
+							<a href="#" class="products__materials-link"><img src="images/makou.jpg" alt="" class="products__picture"></a>
+							<div class="products__name">макулартура</div>
+						</div>
+						<div class="products__materials-item">
+							<a href="#" class="products__materials-link"><img src="images/carton-meduim.jpg" alt="" class="products__picture"></a>
+							<div class="products__name">картон</div>
+						</div>
+						<div class="products__materials-item">
+							<a href="#" class="products__materials-link"><img src="images/polytilen.jpg" alt="" class="products__picture"></a>
+							<div class="products__name">полиэтилен</div>
+						</div>
+					</div>
+					<ul class="products__list clearfix">
+						<li class="products__list-item">
+							<h4 class="products__list-title">бумага</h4>
+							<p class="products__text">до<span class="products__price">9 500<i class="fas fa-ruble-sign"></i></span>/тонна</p>
+							<img src="images/paper.png" alt="paper" class="products__image">
+						</li>
+						<li class="products__list-item">
+							<h4 class="products__list-title">картон</h4>
+							<p class="products__text">до<span class="products__price">9 500<i class="fas fa-ruble-sign"></i></span>/тонна</p>
+							<img src="images/carton.png" alt="" class="products__image">
+						</li>
+						<li class="products__list-item">
+							<h4 class="products__list-title">гофрокартон</h4>
+							<p class="products__text">до<span class="products__price">9 500<i class="fas fa-ruble-sign"></i></span>/тонна</p>
+							<img src="images/cover.png" alt="" class="products__image">
+						</li>
+						<li class="products__list-item">
+							<h4 class="products__list-title">газеты,журнал</h4>
+							<p class="products__text">до<span class="products__price">9 500<i class="fas fa-ruble-sign"></i></span>/тонна</p>
+							<img src="images/journal.png" alt="" class="products__image">
+						</li>
+						<li class="products__list-item">
+							<h4 class="products__list-title">книги</h4>
+							<p class="products__text">до<span class="products__price">9 500<i class="fas fa-ruble-sign"></i></span>/тонна</p>
+							<img src="images/books.png" alt="" class="products__image">
+						</li>
+						<li class="products__list-item">
+							<h4 class="products__list-title">ПВД,стрейч-пленка</h4>
+							<p class="products__text">до<span class="products__price">9 500<i class="fas fa-ruble-sign"></i></span>/тонна</p>
+							<img src="images/jointure.png" alt="" class="products__image">
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="showcase showcase--second">
+				<div class="container clearfix">
+					<div class="leftContent container__leftContent container__leftContent--second">
+						<p class="leftContent__subtitle leftContent__subtitle--second">бесплатный вывоз вторрсырья с 9:00 до 19:00</p>
+						<ul class="leftContent__list leftContent__list--second">
+							<li class="leftContent__items"><a href="#" class="leftContent__link leftContent__link--second"><img class="leftContent__icon" src="images/double-right.svg" alt="house">Макулатура от 300 кг (более 500 кг – заплатим Вам за макулатуру)</a></li>
+							<li class="leftContent__items"><a href="#" class="leftContent__link leftContent__link--second"><img class="leftContent__icon" src="images/double-right.svg" alt="location">Картон от 500 кг (более 1 тонны – заплатим Вам за картон)</a></li>
+							<li class="leftContent__items"><a href="#" class="leftContent__link leftContent__link--second"><img class="leftContent__icon" src="images/double-right.svg" alt="car">Отходы полиэтилена от 300 кг (более 500 кг – платим Вам за полиэтилен)</a></li>
+							<p class="leftContent__text leftContent__text--second">Возможен ночной вывоз. Индивидуальные условия по телефону: +7 (495) 120-55-29</p>
+						</ul>
+					</div>
+					<div class="container__formContent container__formContent--second">
+						<form action="#" class="formContent formContent--second">
+							<h3 class="formContent__header formContent__header--second">Оставить заявку</h3>
+							<p class="formContent__paragraphe formContent__paragraphe--second">на вывоз вторсырья</p>
+							<div class="formContent__line formContent__line--second clearfix">
+								<input class="formContent__input formContent__input--second" type="text" placeholder="Ваш имя">
+								<input class="formContent__input formContent__input--second" type="text" placeholder="Ваш телефон*">
+							</div>
+							<div class="formContent__wrap-btn formContent__wrap-btn--second">
+								<input class="formContent__btn formContent__btn--second" type="submit" value="отправить">
+							</div> 
+							<p class="formContent__footer formContent__footer--second formContent__footer--first">Отправляя сообщение вы соглашаетесь </p>
+							<p class="formContent__footer formContent__footer--second">на <span class="formContent__span formContent__span--second">обработку персональных данных</span> </p>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="reception" id="price">
+				<div class="container">
+					<h2 class="reception__title">Цены на прием вторсырья</h2>
+					<p class="reception__text">В прайсе указаны максимальные цены за 1 кг вторсырья, на итоговую стоимость </p>
+					<ul class="reception__list clearfix">
+						<li class="reception__item"><img src="images/recycle-sign.svg" alt="" class="reception__image">Вид вторсырья (бумага, картон, полиэтилен, твердые отходы)</li>
+						<li class="reception__item"><img src="images/pallet.svg" alt="" class="reception__image">Тип упаковки (кипы или навалом)</li>
+						<li class="reception__item"><img src="images/scale.svg" alt="" class="reception__image">Объем сдаваемого вторсырья (чем больше, тем выше цена)</li>
+						<li class="reception__item"><img src="images/truck.svg" alt="" class="reception__image">
+						Cпособ сдачи (вывоз или самостоятельная доставка на базу)</li>
+					</ul>
+					<div class="reception__table clearfix">
+						<ul class="reception__table-list reception__table-list--first">
+							<li class="reception__table-item reception__table-item--header">Тип сырья</li>
+							<li class="reception__table-item reception__table-item--first">Гофрокартон</li>
+							<li class="reception__table-item reception__table-item--first">Газеты и журналы</li>
+							<li class="reception__table-item reception__table-item--first">Книги</li>
+							<li class="reception__table-item reception__table-item--first">Типографский картон</li>
+							<li class="reception__table-item reception__table-item--first">Архив</li>
+							<li class="reception__table-item reception__table-item--first">Пленка ПВД прозрачная</li>
+							<li class="reception__table-item reception__table-item--first">Пленка ПВД цветная</li>
+							<li class="reception__table-item reception__table-item--first">Стретч</li>
+							<li class="reception__table-item reception__table-item--first">Другое</li>
+						</ul>
+						<ul class="reception__table-list">
+							<li class="reception__table-item reception__table-item--header">
+								Цена р/кг
+								<p class="reception__table-text">(вы привозите на площадку)</p>
+							</li>
+							<li class="reception__table-item reception__table-item--elt">6,7</li>
+							<li class="reception__table-item reception__table-item--elt">7</li>
+							<li class="reception__table-item reception__table-item--elt">6,7</li>
+							<li class="reception__table-item reception__table-item--elt">7</li>
+							<li class="reception__table-item reception__table-item--elt">6,7</li>
+							<li class="reception__table-item reception__table-item--elt">7</li>
+							<li class="reception__table-item reception__table-item--elt">6,7</li>
+							<li class="reception__table-item reception__table-item--elt">7</li>
+							<li class="reception__table-item reception__table-item--elt">Уточняйте по телефону</li>
+						</ul>
+						<ul class="reception__table-list">
+							<li class="reception__table-item reception__table-item--header">
+								Цена р/кг до 1 тонны
+								<p class="reception__table-text">(мы привозим на площадку)</p>
+							</li>
+							<li class="reception__table-item reception__table-item--elt">5</li>
+							<li class="reception__table-item reception__table-item--elt">6</li>
+							<li class="reception__table-item reception__table-item--elt">3,5</li>
+							<li class="reception__table-item reception__table-item--elt">3,5</li>
+							<li class="reception__table-item reception__table-item--elt">Уточняйте по телефону</li>
+							<li class="reception__table-item reception__table-item--elt">Уточняйте по телефону</li>
+							<li class="reception__table-item reception__table-item--elt">Уточняйте по телефону</li>
+							<li class="reception__table-item reception__table-item--elt">Уточняйте по телефону</li>
+							<li class="reception__table-item reception__table-item--elt">Уточняйте по телефону</li>
+						</ul>
+						<ul class="reception__table-list">
+							<li class="reception__table-item reception__table-item--header">
+								Цена р/кг до 1 тонны
+								<p class="reception__table-text">(мы привозим на площадку)</p>
+							</li>
+							<li class="reception__table-item reception__table-item--elt">6</li>
+							<li class="reception__table-item reception__table-item--elt">7</li>
+							<li class="reception__table-item reception__table-item--elt">4,5</li>
+							<li class="reception__table-item reception__table-item--elt">4,5</li>
+							<li class="reception__table-item reception__table-item--elt">Уточняйте по телефону</li>
+							<li class="reception__table-item reception__table-item--elt">Уточняйте по телефону</li>
+							<li class="reception__table-item reception__table-item--elt">Уточняйте по телефону</li>
+							<li class="reception__table-item reception__table-item--elt">Уточняйте по телефону</li>
+							<li class="reception__table-item reception__table-item--elt">Уточняйте по телефону</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="reception" id="company">
+				<div class="container">
+					<h2 class="reception__title">Рекомендации по сдаче вторсырья </h2>
+					<p class="reception__text">Для получения максимальной цены за сдаваемое вторсырье необходимо соблюдать следующие правила:</p>
+					<div class="reception__recommend clearfix">
+						<div class="reception__recommend-item">
+							<div class="reception__recommend-element">
+								<h4 class="reception__recommend-title">Сортировка</h4>
+								<p class="reception__recommend-text">Требуется отсортировать макулатуру по маркам, картон по видам и убрать посторонние предметы (скрепки, обложки, файлики и т.п.).</p>
+								<img class="reception__recommend-sign" src="images/double-right.svg" alt="">
+							</div>
+							<div class="reception__recommend-element">
+								<h4 class="reception__recommend-title">Тип упаковки</h4>
+								<p class="reception__recommend-text">За прессованную в кипы макулатуру или картонные отходы цена за кг будет выше, чем за сдачу бумаги навалом. </p>
+								<img class="reception__recommend-sign" src="images/double-right.svg" alt="">
+							</div>
+							<span class="reception__recommend-name">Макулатура и картон</span>
+						</div>
+						<div class="reception__recommend-item">
+							<div class="reception__recommend-element">
+								<h4 class="reception__recommend-title">Сортировка</h4>
+								<p class="reception__recommend-text">Полиэтилен нужно очистить от загрязнений (скотч, цемент, земля). Разноцветную стрейч-пленку рекомендуется отсортировать по цветам.</p>
+								<img class="reception__recommend-sign" src="images/double-right.svg" alt="">
+							</div>
+							<div class="reception__recommend-element">
+								<h4 class="reception__recommend-title">Состав</h4>
+								<p class="reception__recommend-text">Наивысшую стоимость имеет полиэтилен без примесей других полимеров (ПНД, лавсан, полиамид, полипропилен и т.д.).</p>
+								<img class="reception__recommend-sign" src="images/double-right.svg" alt="">
+							</div>
+							<span class="reception__recommend-name">Полиэтилен </span>
+						</div>
+						<div class="reception__recommend-item">
+							<div class="reception__recommend-element">
+								<h4 class="reception__recommend-title">Транспорт</h4>
+								<p class="reception__recommend-text">Самостоятельная доставка – выгоднее. При вывозе вторсырья объемом менее 500 кг, учитываются затраты на транспорт. </p>
+								<img class="reception__recommend-sign" src="images/double-right.svg" alt="">
+							</div>
+							<div class="reception__recommend-element">
+								<h4 class="reception__recommend-title">Объем</h4>
+								<p class="reception__recommend-text">Чем больше объем сдаваемых вторичных отходов, тем выше цена за 1 кг.</p>
+								<img class="reception__recommend-sign" src="images/double-right.svg" alt="">
+							</div>
+							<div class="reception__recommend-element">
+								<h4 class="reception__recommend-title">Сотрудничество</h4>
+								<p class="reception__recommend-text">При заключении договора на регулярный прием или вывоз вторсырья, цена выше. </p>
+								<img class="reception__recommend-sign" src="images/double-right.svg" alt="">
+							</div>
+							<span class="reception__recommend-name">Общие рекомендации</span>
+						</div>
+					</div>
+					<h2 class="reception__title">как мы работаем</h2>
+					<div class="reception__work clearfix">
+						<ul class="reception__work-list">
+							<li class="reception__work-item reception__work-item--title">Заявка</li>
+							<li class="reception__work-item">Сообщить объем и вид сдаваемого вторсырья</li>
+							<li class="reception__work-item">Назвать адрес, если требуется вывоз (уточнить потребуется ли погрузка и разгрузка)</li>
+							<li class="reception__work-item reception__work-item--img"><img src="images/mail-online-2.svg" alt=""></li>
+						</ul>
+						<ul class="reception__work-list">
+							<li class="reception__work-item reception__work-item--title">Согласование</li>
+							<li class="reception__work-item">Менеджер озвучит предварительную цену</li>
+							<li class="reception__work-item">Согласует удобную дату и время вывоза (самостоятельная доставка возможна круглосуточно)</li>
+							<li class="reception__work-item reception__work-item--img"><img src="images/calendar-2.svg" alt=""></li>
+						</ul>
+						<ul class="reception__work-list">
+							<li class="reception__work-item reception__work-item--title">Вывоз</li>
+							<li class="reception__work-item">Бесплатная погрузка и разгрузка нашими грузчиками</li>
+							<li class="reception__work-item">Оценка точной стоимости вторсырья (для точного расчета требуется взвешивание и сортировка)</li>
+							<li class="reception__work-item reception__work-item--img"><img src="images/truck-2.svg" alt=""></li>
+						</ul>
+						<ul class="reception__work-list">
+							<li class="reception__work-item reception__work-item--title">Оплата</li>
+							<li class="reception__work-item">Наличными, переводом на карту или по счету</li>
+							<li class="reception__work-item">Оплата производить в день приема (после сортировки и взвешивания на площадке)</li>
+							<li class="reception__work-item reception__work-item--img"><img src="images/wallet-2.svg" alt=""></li>
+						</ul>
+					</div>
+					<div class="reception__city" ></div>
+					<h2 class="reception__title">контактная информация</h2>
+				</div>
+				<div class="banner-info" id="contact">
+					<div class="cantainer"></div>
+				</div>
+				<div class="footer">
+					<div class="container clearfix">
+						<div class="footer__content clearfix">
+							<ul class="footer__content-list">
+								<li class="footer__content-item footer__content-item--title">Контакты</li>
+								<li class="footer__content-item"><i class="header__top-icon fa fa-phone" aria-hidden="true"></i><a href="" class="footer__content-link">+7 (495) 120-55-29</a></li>
+								<li class="footer__content-item"><i class="header__top-icon fas fa-map-marker-alt"></i><a href="" class="footer__content-link">г. Москва, ул. Рябиновая, д. 53</a></li>
+								<li class="footer__content-item"><i class="header__top-icon fa fa-envelope" aria-hidden="true"></i><a href="" class="footer__content-link">info@makulatura.online</a></li>
+							</ul>
+							<ul class="footer__content-list clearfix">
+								<li class="footer__content-item footer__content-item--title">Услуги</li>
+								<div class="footer__wrap-content-item">
+									<li class="footer__content-item"><a href="" class="footer__content-link">Прием вторсырья</a></li>
+									<li class="footer__content-item"><a href="" class="footer__content-link">Продажа вторсырья</a></li>
+									<li class="footer__content-item"><a href="" class="footer__content-link">Вывоз вторсырья</a></li>
+								</div>
+								<div class="footer__wrap-content-item">
+									<li class="footer__content-item"><a href="" class="footer__content-link">Утилизация документов</a></li>
+									<li class="footer__content-item"><a href="" class="footer__content-link">Аренда контейнеров</a></li>
+									<li class="footer__content-item"><a href="" class="footer__content-link">Аренда проесса</a></li>
+								</div>
+							</ul>
+							<ul class="footer__content-list">
+								<li class="footer__content-item footer__content-item--title">Обратная связи</li>
+								<form action="" class="footer__content-form">
+									<input type="text" class="footer__content-input" placeholder="Ваш имя">
+									<input type="text" class="footer__content-input" placeholder="Ваш телефон">
+									<input type="submit" value="ОТПРАВИТЬ" class="footer__content-input footer__content-input--submit">
+								</form>
+							</ul>
+						</div>
+						<div class="footer__logo clearfix">
+							<a href="#" class="header__logo-link header__logo-link--footer"><img src="images/logo1.png" alt="logo" class="header__logo-picture"></a>
+							<p class="footer__copyright">© 2018 Makulatura.online - Покупка, продажа макулатуры и вторичных полимеров</p>
+							<div class="footer__push">Продвижение сайта</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>				
+		<script src="js/rangeslider.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>	
+	</body>
+</html>
+
