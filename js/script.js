@@ -4,9 +4,12 @@
 //    location.reload(); 
 // }
 
-$(window).resize(function() {
-  location.reload();
-});
+window.addEventListener('resize', function () {
+  viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+  if (viewportWidth < 1025) {
+    location.reload();
+  }
+}, false);
 
 
 $(document).ready(function() {
